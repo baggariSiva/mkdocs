@@ -1,14 +1,38 @@
-# Mkdocs example demo CI/CD pipeline
+# MkDocs example demo CI/CD pipeline
 
 <a href="https://dash.elest.io/deploy?source=cicd&social=Github&url=https://github.com/elestio-examples/mkdocs"><img src="deploy-on-elestio.png" alt="Deploy on Elest.io" width="180px" /></a>
 
-# Mkdocs
+This is a very basic example of a simple MkDocs App.
+
+<img src="screenshot.png" alt="screenshot of the MkDocs app" width="100%" />
+
+# Steps to clone this repository and run locally.
+
+
+### Step 1: Clone this repository.
 
 ```
-mkdocs new project-name
+git clone https://github.com/elestio-examples/mkdocs.git
+```
+### Step 2: Go to project folder.
+
+```
+cd mkdocs
 ```
 
-<img src="screenshot.png" alt="screenshot of the example app" width="100%" />
+### Step 3: Install dependencies.
+
+```
+pip install mkdocs
+```
+
+### Step 4: Run your app in dev mode.
+
+```
+mkdocs serve
+```
+
+### Step 5: Make some changes and push.
 
 
 ## CI/CD on Elestio
@@ -29,14 +53,14 @@ We have three different types of deployment method
 - Gitlab
 - Docker compose
 
-But for this Mkdocs Template, you can choose GitHub as your deployment method.
+But for this MkDocs Template, you can choose GitHub as your deployment method.
 
 ### Step 3: Authentication
 
-Select Clone in step at step Git Repository and select Mkdocs template for creating a repository in your git account after that authenticate with Git by clicking on
+Select Clone in step at step Git Repository and select MkDocs template for creating a repository in your git account after that authenticate with Git by clicking on
 Continue with Github button and authorize elestio to access git then you can rename you repository name if you want.
 
-Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the mkdocs repo otherwise you can directly insert a git repo URL to deploy the Mkdocs application.
+Else If you forked the repo then you can click on the Continue with GitHub button and authorize elestio to access the git repo then you can select the MkDocs repo otherwise you can directly insert a git repo URL to deploy the MkDocs application.
 
 ### Step 4: Configuration
 
