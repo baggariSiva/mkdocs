@@ -1,6 +1,6 @@
 # MkDocs on Elestio
 
-This is a minimal example of a MkDocs site created using mkdocs new
+This is a minimal example of a MkDocs app created using mkdocs new
 
 Click on the button below to deploy this repository with CI/CD on Elestio:
 
